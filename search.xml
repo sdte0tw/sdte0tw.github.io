@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>HTML基础语法</title>
-    <url>/2022-02-11/16-24-09/</url>
+    <url>/2022-02-11/</url>
     <content><![CDATA[<h1 id="HTML基础语法"><a href="#HTML基础语法" class="headerlink" title="HTML基础语法"></a>HTML基础语法</h1><p><a href="https://www.w3school.com.cn/html/index.asp">W3Cschool的HTML基础教程</a></p>
 <h2 id="一、基本框架"><a href="#一、基本框架" class="headerlink" title="一、基本框架"></a>一、基本框架</h2><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">title</span>&gt;</span>网页标签名<span class="tag">&lt;<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">    </span><br><span class="line">    <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    网页主体</span><br><span class="line">    <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <hr>
