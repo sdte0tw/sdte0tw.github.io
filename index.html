@@ -423,11 +423,11 @@
 <p>浏览器打开 <code>localhost:4000</code> 看是否正常显示 Hexo 初始页面，若成功表示 Hexo 已经安装好了</p>
 <hr>
 <h2 id="二、本地git连接GitHub"><a href="#二、本地git连接GitHub" class="headerlink" title="二、本地git连接GitHub"></a>二、本地git连接GitHub</h2><p>GitHub创建一个仓库，名字一定要是 <code>用户名.github.io</code>，否则无法正常使用</p>
-<p><img src="https://github.com/sdte0tw/imageHost/blob/main/BlogImage/gitnewrepo.png"></p>
+<p><img src="/img/gitnewrepo.png"></p>
 <p>桌面打开git bash，输入</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">&quot;GitHub用户名&quot;</span></span><br><span class="line"></span><br><span class="line">$ git config --global user.email <span class="string">&quot;GitHub注册邮箱&quot;</span></span><br><span class="line"></span><br><span class="line">$ ssh-keygen -t rsa -C <span class="string">&quot;GitHub注册邮箱&quot;</span></span><br></pre></td></tr></table></figure>
 <p>一路回车，看到这样的画面就是生成了 SSH keys</p>
-<p><img src="https://github.com/sdte0tw/imageHost/blob/main/BlogImage/gitsshkeys.png"></p>
+<p><img src="/img/gitsshkeys.png"></p>
 <p>然后在 <code>C:\Users\电脑用户名\\.ssh</code> 文件夹找到生成的 <code>id_rsa.pub</code> 文件打开复制 SSH key，在 GitHub 打开头像 -&gt; settings -&gt; SSH and GPG keys -&gt; New SSH key，填入复制的 SSH key -&gt; 点击Add SSH key，title 标题随便写</p>
 <p>成功后GitHub会向绑定的邮箱发送一封邮件，同时在 git bash 输入</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh -T git@github.com</span><br></pre></td></tr></table></figure>
@@ -526,15 +526,15 @@
 </li>
 </ul>
 <p>新建后可以建立文件夹分类，也可以不建立</p>
-<p><img src="https://github.com/sdte0tw/imageHost/blob/main/BlogImage/newfolder.png"></p>
-<p><img src="https://github.com/sdte0tw/imageHost/blob/main/BlogImage/newTemp.png"></p>
+<p><img src="/img/newfolder.png"></p>
+<p><img src="/img/newTemp.png"></p>
 <blockquote>
 <p>这里新建的文件夹后面要加一个/斜杠，然后随便新建一个临时文件写两个字（文件夹不能为空）后点 Commit new file，这样就新建了一个仓库内的文件夹</p>
 </blockquote>
 <p>之后点上传文件</p>
-<p><img src="https://github.com/sdte0tw/imageHost/blob/main/BlogImage/upload.png"></p>
+<p><img src="/img/upload.png"></p>
 <p>可以上传多个文件</p>
-<p><img src="https://github.com/sdte0tw/imageHost/blob/main/BlogImage/upload2.png"></p>
+<p><img src="/img/upload2.png"></p>
 <p>上传成功后点开图像文件，其网址就是对应的图片 URL</p>
 
           
@@ -726,7 +726,7 @@
 </li>
 <li><h3 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">hr</span>&gt;</span></span><br><span class="line">or</span><br><span class="line"><span class="tag">&lt;<span class="name">hr</span> <span class="attr">class</span>=<span class="string">&quot;hr_t&quot;</span> <span class="attr">size</span>=<span class="string">10</span> <span class="attr">color</span>=<span class="string">&quot;red&quot;</span> <span class="attr">style</span>=<span class="string">&quot;border:1 solid  #999&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure>
 <blockquote>
-<hr class="hr_t" size=10 color="red" style="border:1 solid  #999" /></blockquote>
+<hr class="hr_t" size="10" color="red" style="border:1 solid  #999"></blockquote>
 </li>
 </ul>
 <h2 id="三、转义字符"><a href="#三、转义字符" class="headerlink" title="三、转义字符"></a>三、转义字符</h2><p><a target="_blank" rel="noopener" href="https://www.w3school.com.cn/html/html_entities.asp">HTML 字符实体</a></p>
@@ -793,9 +793,9 @@
 <h2 id="七、表格标签"><a href="#七、表格标签" class="headerlink" title="七、表格标签"></a>七、表格标签</h2><p><a target="_blank" rel="noopener" href="https://www.w3school.com.cn/html/html_tables.asp">HTML 表格</a></p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">table</span> <span class="attr">width</span> = <span class="string">&quot;200&quot;</span> <span class="attr">border</span>=<span class="string">&quot;1&quot;</span> <span class="attr">cellspacing</span>=<span class="string">&quot;23&quot;</span>&gt;</span><span class="comment">&lt;!--加border表示边框，0为无边框，width为表格宽度，cellspacing为格子的空白大小--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">tr</span>&gt;</span><span class="comment">&lt;!--tr包起来为一行--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">th</span> <span class="attr">colspan</span> = <span class="string">&quot;2&quot;</span>&gt;</span>Heading<span class="tag">&lt;/<span class="name">th</span>&gt;</span><span class="comment">&lt;!--表头--&gt;</span><span class="comment">&lt;!--colspan = &quot;2&quot;表示横跨2列--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">th</span>&gt;</span>Another Heading<span class="tag">&lt;/<span class="name">th</span>&gt;</span><span class="comment">&lt;!--另一个表头--&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">tr</span> <span class="attr">align</span>=<span class="string">&quot;center&quot;</span>&gt;</span><span class="comment">&lt;!--align定义对齐方式--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span> <span class="attr">rowspan</span>=<span class="string">&quot;2&quot;</span>&gt;</span>row 1, cell 1<span class="tag">&lt;/<span class="name">td</span>&gt;</span><span class="comment">&lt;!--rowspan = &quot;2&quot;表示竖跨2行--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span>row 1, cell 2<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">tr</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span>row 2, cell 1<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span>row 2, cell 2<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">table</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <blockquote>
-<table width = "2200" border="1" cellspacing="23">
+<table width="2200" border="1" cellspacing="23">
 <tr align="center">
-<th colspan = "2">Heading</th>
+<th colspan="2">Heading</th>
 <th>Another Heading</th>
 </tr>
 <tr>
@@ -830,12 +830,12 @@
 </li>
 <li><h3 id="lt-select-gt-下拉列表-lt-option-gt-定义列表项"><a href="#lt-select-gt-下拉列表-lt-option-gt-定义列表项" class="headerlink" title="&lt;select&gt;下拉列表&lt;option&gt;定义列表项"></a>&lt;select&gt;下拉列表&lt;option&gt;定义列表项</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">请选择 <span class="tag">&lt;<span class="name">select</span> <span class="attr">name</span>=<span class="string">&quot;options&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">&quot;option1&quot;</span>&gt;</span>选项1<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">&quot;option2&quot;</span>&gt;</span>选项2<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">&quot;option3&quot;</span>&gt;</span>选项3<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">&quot;option4&quot;</span>&gt;</span>选项4<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">select</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <blockquote>
-<p>请选择 <select name="options"></p>
+<p>请选择 <select name="options"></select></p>
 <option value="option1">选项1</option>
 <option>选项2</option><!--不加value就会提交包起来的数据-->
 <option value="option3">选项3</option>
 <option value="option4">选项4</option>
-</select></blockquote>
+</blockquote>
 </li>
 <li><h3 id="lt-textarea-gt-文本框"><a href="#lt-textarea-gt-文本框" class="headerlink" title="&lt;textarea&gt;文本框"></a>&lt;textarea&gt;文本框</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">请输入文字</span><br><span class="line"><span class="tag">&lt;<span class="name">textarea</span> <span class="attr">name</span>=<span class="string">&quot;message&quot;</span> <span class="attr">rows</span>=<span class="string">&quot;5&quot;</span> <span class="attr">cols</span>=<span class="string">&quot;30&quot;</span>&gt;</span><span class="comment">&lt;!--rows是设定行高尺寸，cols是设定字数宽度尺寸--&gt;</span></span><br><span class="line">The cat was playing in the garden.</span><br><span class="line"><span class="tag">&lt;/<span class="name">textarea</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <blockquote>
