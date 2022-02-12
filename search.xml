@@ -2,9 +2,10 @@
 <search>
   <entry>
     <title>HTML基础语法</title>
-    <url>/2022-02-11/</url>
-    <content><![CDATA[<h1 id="HTML基础语法"><a href="#HTML基础语法" class="headerlink" title="HTML基础语法"></a>HTML基础语法</h1><p><a href="https://www.w3school.com.cn/html/index.asp">W3Cschool的HTML基础教程</a></p>
+    <url>/posts/826fe1c1/</url>
+    <content><![CDATA[<h1 id="HTML基础语法"><a href="#HTML基础语法" class="headerlink" title="HTML基础语法"></a>HTML基础语法</h1><p><a href="https://www.w3school.com.cn/html/index.asp">HTML教程~W3Cschool</a></p>
 <h2 id="一、基本框架"><a href="#一、基本框架" class="headerlink" title="一、基本框架"></a>一、基本框架</h2><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">title</span>&gt;</span>网页标签名<span class="tag">&lt;<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">    </span><br><span class="line">    <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    网页主体</span><br><span class="line">    <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
 <hr>
 <h2 id="二、主体样式"><a href="#二、主体样式" class="headerlink" title="二、主体样式"></a>二、主体样式</h2><ul>
 <li><h3 id="标题大小"><a href="#标题大小" class="headerlink" title="标题大小"></a>标题大小</h3><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">h1</span>&gt;</span>一级标题<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">h2</span>&gt;</span>二级标题<span class="tag">&lt;/<span class="name">h2</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">h3</span>&gt;</span>三级标题<span class="tag">&lt;/<span class="name">h3</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">h4</span>&gt;</span>四级标题<span class="tag">&lt;/<span class="name">h4</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">h5</span>&gt;</span>五级标题<span class="tag">&lt;/<span class="name">h5</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">h6</span>&gt;</span>六级标题<span class="tag">&lt;/<span class="name">h6</span>&gt;</span></span><br></pre></td></tr></table></figure>
@@ -73,34 +74,30 @@
 </blockquote>
 <hr>
 <h2 id="四、媒体标签"><a href="#四、媒体标签" class="headerlink" title="四、媒体标签"></a>四、媒体标签</h2><ul>
-<li><h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><p><a href="https://www.w3school.com.cn/html/html_images.asp">HTML 图像</a></p>
-<blockquote>
-<p>高度、宽度默认为px像素，加百分号width=”宽度%” height=”高度%”指占&lt;body&gt;的百分比</p>
-</blockquote>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;url&quot;</span> <span class="attr">width</span>=<span class="string">&quot;宽度&quot;</span> <span class="attr">height</span>=<span class="string">&quot;高度&quot;</span>/&gt;</span></span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>给图片加属性（鼠标移上去显示的注释）</p>
-</blockquote>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;url&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;写注释&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure></li>
-<li><h3 id="音频"><a href="#音频" class="headerlink" title="音频"></a>音频</h3><p><a href="https://www.w3school.com.cn/html/html_audio.asp">HTML 音频</a></p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">audio</span> <span class="attr">src</span>=<span class="string">&quot;song.mp3&quot;</span> <span class="attr">controls</span>&gt;</span><span class="tag">&lt;/<span class="name">audio</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--controls显示播放控件--&gt;</span></span><br><span class="line">or</span><br><span class="line"><span class="tag">&lt;<span class="name">audio</span> <span class="attr">controls</span>=<span class="string">&quot;controls&quot;</span> <span class="attr">height</span>=<span class="string">&quot;100&quot;</span> <span class="attr">width</span>=<span class="string">&quot;100&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">source</span> <span class="attr">src</span>=<span class="string">&quot;song.mp3&quot;</span> <span class="attr">type</span>=<span class="string">&quot;audio/mp3&quot;</span> /&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">source</span> <span class="attr">src</span>=<span class="string">&quot;song.ogg&quot;</span> <span class="attr">type</span>=<span class="string">&quot;audio/ogg&quot;</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">embed</span> <span class="attr">height</span>=<span class="string">&quot;100&quot;</span> <span class="attr">width</span>=<span class="string">&quot;100&quot;</span> <span class="attr">src</span>=<span class="string">&quot;song.mp3&quot;</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">audio</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>上面的例子使用了两个不同的音频格式<br>HTML5&lt;audio&gt;元素会尝试以 mp3、wmv 或 ogg 来播放音频。如果失败，代码将回退尝试&lt;embed&gt;元素</p>
-</blockquote>
-</li>
-<li><h3 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h3><p><a href="https://www.w3school.com.cn/html/html_video.asp">HTML 视频</a></p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">video</span> <span class="attr">src</span>=<span class="string">&quot;video.mp4&quot;</span> <span class="attr">controls</span>&gt;</span><span class="tag">&lt;/<span class="name">video</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--controls显示播放控件--&gt;</span></span><br><span class="line">or</span><br><span class="line"><span class="tag">&lt;<span class="name">video</span> <span class="attr">width</span>=<span class="string">&quot;320&quot;</span> <span class="attr">height</span>=<span class="string">&quot;240&quot;</span> <span class="attr">controls</span>=<span class="string">&quot;controls&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">source</span> <span class="attr">src</span>=<span class="string">&quot;movie.mp4&quot;</span> <span class="attr">type</span>=<span class="string">&quot;video/mp4&quot;</span> /&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">source</span> <span class="attr">src</span>=<span class="string">&quot;movie.ogg&quot;</span> <span class="attr">type</span>=<span class="string">&quot;video/ogg&quot;</span> /&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">source</span> <span class="attr">src</span>=<span class="string">&quot;movie.webm&quot;</span> <span class="attr">type</span>=<span class="string">&quot;video/webm&quot;</span> /&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">object</span> <span class="attr">data</span>=<span class="string">&quot;movie.mp4&quot;</span> <span class="attr">width</span>=<span class="string">&quot;320&quot;</span> <span class="attr">height</span>=<span class="string">&quot;240&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">embed</span> <span class="attr">src</span>=<span class="string">&quot;movie.swf&quot;</span> <span class="attr">width</span>=<span class="string">&quot;320&quot;</span> <span class="attr">height</span>=<span class="string">&quot;240&quot;</span> /&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">object</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">video</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>上例中使用了 4 中不同的视频格式<br>HTML5&lt;video&gt;元素会尝试播放以 mp4、ogg 或 webm 格式中的一种来播放视频。如果失败，则回退到&lt;embed&gt;元素</p>
-</blockquote>
-</li>
+<li><h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><a href="https://www.w3school.com.cn/html/html_images.asp">HTML 图像</a></li>
 </ul>
+<p>高度、宽度默认为px像素，加百分号width=”宽度%” height=”高度%”指占&lt;body&gt;的百分比</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;url&quot;</span> <span class="attr">width</span>=<span class="string">&quot;宽度&quot;</span> <span class="attr">height</span>=<span class="string">&quot;高度&quot;</span>/&gt;</span></span><br></pre></td></tr></table></figure>
+<p>给图片加属性（鼠标移上去显示的注释）</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;url&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;写注释&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><h3 id="音频"><a href="#音频" class="headerlink" title="音频"></a>音频</h3><a href="https://www.w3school.com.cn/html/html_audio.asp">HTML 音频</a><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">audio</span> <span class="attr">src</span>=<span class="string">&quot;song.mp3&quot;</span> <span class="attr">controls</span>&gt;</span><span class="tag">&lt;/<span class="name">audio</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--controls显示播放控件--&gt;</span></span><br><span class="line">or</span><br><span class="line"><span class="tag">&lt;<span class="name">audio</span> <span class="attr">controls</span>=<span class="string">&quot;controls&quot;</span> <span class="attr">height</span>=<span class="string">&quot;100&quot;</span> <span class="attr">width</span>=<span class="string">&quot;100&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">source</span> <span class="attr">src</span>=<span class="string">&quot;song.mp3&quot;</span> <span class="attr">type</span>=<span class="string">&quot;audio/mp3&quot;</span> /&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">source</span> <span class="attr">src</span>=<span class="string">&quot;song.ogg&quot;</span> <span class="attr">type</span>=<span class="string">&quot;audio/ogg&quot;</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">embed</span> <span class="attr">height</span>=<span class="string">&quot;100&quot;</span> <span class="attr">width</span>=<span class="string">&quot;100&quot;</span> <span class="attr">src</span>=<span class="string">&quot;song.mp3&quot;</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">audio</span>&gt;</span></span><br></pre></td></tr></table></figure>
+上面的例子使用了两个不同的音频格式</li>
+</ul>
+<p>HTML5&lt;audio&gt;元素会尝试以 mp3、wmv 或 ogg 来播放音频。如果失败，代码将回退尝试&lt;embed&gt;元素</p>
+<ul>
+<li><h3 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h3><a href="https://www.w3school.com.cn/html/html_video.asp">HTML 视频</a><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">video</span> <span class="attr">src</span>=<span class="string">&quot;video.mp4&quot;</span> <span class="attr">controls</span>&gt;</span><span class="tag">&lt;/<span class="name">video</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--controls显示播放控件--&gt;</span></span><br><span class="line">or</span><br><span class="line"><span class="tag">&lt;<span class="name">video</span> <span class="attr">width</span>=<span class="string">&quot;320&quot;</span> <span class="attr">height</span>=<span class="string">&quot;240&quot;</span> <span class="attr">controls</span>=<span class="string">&quot;controls&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">source</span> <span class="attr">src</span>=<span class="string">&quot;movie.mp4&quot;</span> <span class="attr">type</span>=<span class="string">&quot;video/mp4&quot;</span> /&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">source</span> <span class="attr">src</span>=<span class="string">&quot;movie.ogg&quot;</span> <span class="attr">type</span>=<span class="string">&quot;video/ogg&quot;</span> /&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">source</span> <span class="attr">src</span>=<span class="string">&quot;movie.webm&quot;</span> <span class="attr">type</span>=<span class="string">&quot;video/webm&quot;</span> /&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">object</span> <span class="attr">data</span>=<span class="string">&quot;movie.mp4&quot;</span> <span class="attr">width</span>=<span class="string">&quot;320&quot;</span> <span class="attr">height</span>=<span class="string">&quot;240&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">embed</span> <span class="attr">src</span>=<span class="string">&quot;movie.swf&quot;</span> <span class="attr">width</span>=<span class="string">&quot;320&quot;</span> <span class="attr">height</span>=<span class="string">&quot;240&quot;</span> /&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">object</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">video</span>&gt;</span></span><br></pre></td></tr></table></figure>
+上例中使用了 4 中不同的视频格式</li>
+</ul>
+<p>HTML5&lt;video&gt;元素会尝试播放以 mp4、ogg 或 webm 格式中的一种来播放视频。如果失败，则回退到&lt;embed&gt;元素</p>
 <hr>
 <h2 id="五、超链接标签"><a href="#五、超链接标签" class="headerlink" title="五、超链接标签"></a>五、超链接标签</h2><p><a href="https://www.w3school.com.cn/html/html_links.asp">HTML 链接</a></p>
 <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;url&quot;</span> <span class="attr">target</span>=<span class="string">&quot;模式&quot;</span>&gt;</span>链接名称<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--模式为“_self”就是在当前页面打开，&quot;_blank&quot;就是新页面打开--&gt;</span></span><br></pre></td></tr></table></figure>
 <blockquote>
 <p><a href="链接地址">链接名称</a></p>
 </blockquote>
+<hr>
 <h2 id="六、列表标签"><a href="#六、列表标签" class="headerlink" title="六、列表标签"></a>六、列表标签</h2><p><a href="https://www.w3school.com.cn/html/html_lists.asp">HTML 列表</a></p>
 <ul>
 <li><h3 id="有序号的列表"><a href="#有序号的列表" class="headerlink" title="有序号的列表"></a>有序号的列表</h3><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">ol</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">li</span>&gt;</span>Coffee<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">li</span>&gt;</span>Milk<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">ol</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--列表项内部可以使用段落、换行符、图片、链接以及其他列表等等--&gt;</span></span><br></pre></td></tr></table></figure>
@@ -182,6 +179,152 @@
       <tags>
         <tag>HTML</tag>
         <tag>语法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>GitHub + Hexo 搭建博客基本过程</title>
+    <url>/posts/5e78c4cf/</url>
+    <content><![CDATA[<h1 id="GitHub-Hexo-搭建博客基本过程"><a href="#GitHub-Hexo-搭建博客基本过程" class="headerlink" title="GitHub + Hexo 搭建博客基本过程"></a>GitHub + Hexo 搭建博客基本过程</h1><h2 id="一、安装git和Hexo"><a href="#一、安装git和Hexo" class="headerlink" title="一、安装git和Hexo"></a>一、安装git和Hexo</h2><ul>
+<li><h3 id="安装git"><a href="#安装git" class="headerlink" title="安装git"></a>安装git</h3><p>在 <a href="https://git-scm.com/download/win">git下载地址</a> 下载 Standalone Installer 版本，除了安装路径一路默认</p>
+</li>
+<li><h3 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h3><p>在 <a href="https://nodejs.org/en/download/">Node.js下载地址</a> 下载安装包，一路默认，安装完成后在 cmd 分别输入</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">node -v</span><br><span class="line"></span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure>
+<p>显示版本号说明安装成功</p>
+</li>
+<li><h3 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h3><p>建立一个放置 Hexo 框架的文件夹，以后的操作和文章部署都在这个文件夹里，在文件夹中按住 shift+鼠标右键 打开 powershell 输入</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>这里若遇到过报错，可以尝试 <code>cnpm install -g hexo-cli</code>，另外win10需要在开始菜单输入power，打开 <code>允许本地powershell脚本在未签名的情况下运行</code> 选项，勾上点应用就可以了</p>
+</blockquote>
+</li>
+</ul>
+<p>安装完成后在 Hexo 根目录用 git bash 输入</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo init blog</span><br></pre></td></tr></table></figure>
+<p>部署 blog 框架，部署完毕后在根目录重开一下 git bash 输入</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo g</span><br><span class="line"></span><br><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
+<p>浏览器打开 <code>localhost:4000</code> 看是否正常显示 Hexo 初始页面，若成功表示 Hexo 已经安装好了</p>
+<hr>
+<h2 id="二、本地git连接GitHub"><a href="#二、本地git连接GitHub" class="headerlink" title="二、本地git连接GitHub"></a>二、本地git连接GitHub</h2><p>GitHub创建一个仓库，名字一定要是 <code>用户名.github.io</code>，否则无法正常使用</p>
+<p><img src="https://github.com/sdte0tw/imageHost/blob/main/BlogImage/gitnewrepo.png"></p>
+<p>桌面打开git bash，输入</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">&quot;GitHub用户名&quot;</span></span><br><span class="line"></span><br><span class="line">$ git config --global user.email <span class="string">&quot;GitHub注册邮箱&quot;</span></span><br><span class="line"></span><br><span class="line">$ ssh-keygen -t rsa -C <span class="string">&quot;GitHub注册邮箱&quot;</span></span><br></pre></td></tr></table></figure>
+<p>一路回车，看到这样的画面就是生成了 SSH keys</p>
+<p><img src="https://github.com/sdte0tw/imageHost/blob/main/BlogImage/gitsshkeys.png"></p>
+<p>然后在 <code>C:\Users\电脑用户名\\.ssh</code> 文件夹找到生成的 <code>id_rsa.pub</code> 文件打开复制 SSH key，在 GitHub 打开头像 -&gt; settings -&gt; SSH and GPG keys -&gt; New SSH key，填入复制的 SSH key -&gt; 点击Add SSH key，title 标题随便写</p>
+<p>成功后GitHub会向绑定的邮箱发送一封邮件，同时在 git bash 输入</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ ssh -T git@github.com</span><br></pre></td></tr></table></figure>
+<p>回车后会提示</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">XXX</span><br><span class="line">Are you sure you want to <span class="built_in">continue</span> connecting (<span class="built_in">yes</span>/no)?</span><br></pre></td></tr></table></figure>
+<p>输入yes后显示</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Warning: Permanently added ‘github.com,192.30.255.112’ (RSA) to the list of known hosts.</span><br><span class="line">Hi “用户名”! You’ve successfully authenticated, but GitHub does not provide shell access.</span><br></pre></td></tr></table></figure>
+<p>说明连接成功了</p>
+<hr>
+<h2 id="三、推送框架"><a href="#三、推送框架" class="headerlink" title="三、推送框架"></a>三、推送框架</h2><p>打开根目录里的 <code>_config.yml</code> 文件，翻到最下的 deploy ，将其修改为</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">git@github.com:GitHub用户名/GitHub用户名.github.io.git</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">main</span> <span class="comment">#这里可以去 GitHub 的仓库看一下 branch 是 main 还是 master</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>注意！根目录和主题的 yml 配置文件一定不能篡改格式，要严格保留其前面的空格和冒号后的空格否则无法正常识别</p>
+</blockquote>
+<p>然后在根目录用 git bash 输入</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+<p>安装 GitHub 部署插件，完成后输入</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line"><span class="comment">#清除缓存</span></span><br><span class="line">$ hexo g</span><br><span class="line"><span class="comment">#生成新的框架缓存</span></span><br><span class="line">$ hexo d</span><br><span class="line"><span class="comment">#部署到 GitHub</span></span><br></pre></td></tr></table></figure>
+<p>稍等一会就可以打开 <code>xxxx.github.io</code> 看到部署成功的框架了</p>
+<blockquote>
+<p>可以在 GitHub 对应仓库的 <code>Action</code> 看到部署进度</p>
+</blockquote>
+<hr>
+<h2 id="四、主题与-Hexo-基本配置"><a href="#四、主题与-Hexo-基本配置" class="headerlink" title="四、主题与 Hexo 基本配置"></a>四、主题与 Hexo 基本配置</h2><p><a href="http://theme-next.iissnan.com/getting-started.html">NexT 使用文档</a></p>
+<ul>
+<li><h3 id="下载-NexT-主题"><a href="#下载-NexT-主题" class="headerlink" title="下载 NexT 主题"></a>下载 NexT 主题</h3><p>在 Hexo 根目录打开 git bash 输入</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/iissnan/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure></li>
+<li><h3 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h3><p>打开 Hexo 的配置文件 <code>_config.yml</code> 修改 theme 字段改为 next</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">next</span></span><br></pre></td></tr></table></figure>
+<p>保存后在 Hexo 根目录打开 git bash 重载一次框架并打开 <code>localhost:4000</code> 查看是否部署成功</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line"></span><br><span class="line">$ hexo g</span><br><span class="line"></span><br><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
+<p>若页面出现乱码需要在 Hexo 根目录安装 swig</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm i hexo-renderer-swig</span><br></pre></td></tr></table></figure></li>
+<li><h3 id="修改主题风格"><a href="#修改主题风格" class="headerlink" title="修改主题风格"></a>修改主题风格</h3><p>打开 <code>blog\themes\next</code> 目录下的主题配置文件 <code>_config.yml</code> 找到 scheme settings 可以选择4种主题风格，如下是选择了 Gemini 风格</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># ---------------------------------------------------------------</span></span><br><span class="line"><span class="comment"># Scheme Settings</span></span><br><span class="line"><span class="comment"># ---------------------------------------------------------------</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Schemes</span></span><br><span class="line"><span class="comment">#scheme: Muse</span></span><br><span class="line"><span class="comment">#scheme: Mist</span></span><br><span class="line"><span class="comment">#scheme: Pisces</span></span><br><span class="line"><span class="attr">scheme:</span> <span class="string">Gemini</span></span><br></pre></td></tr></table></figure></li>
+<li><h3 id="Hexo-基本配置"><a href="#Hexo-基本配置" class="headerlink" title="Hexo 基本配置"></a>Hexo 基本配置</h3><p>打开 Hexo 根目录的配置文件，找到网站信息基本配置</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Site</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">网站名称</span> <span class="comment">#注意冒号后面留空格，不需要引号</span></span><br><span class="line"><span class="attr">subtitle:</span> <span class="string">网站副标题</span> <span class="comment">#好像会变成个性签名</span></span><br><span class="line"><span class="attr">description:</span> <span class="string">网站描述主要用于被搜索时候展现的描述</span></span><br><span class="line"><span class="attr">keywords:</span> <span class="string">关键词1,关键词2，关键词3</span> <span class="comment">#不过我也没设置不知道具体作用</span></span><br><span class="line"><span class="attr">author:</span> <span class="string">作者名称</span></span><br><span class="line"><span class="attr">language:</span> <span class="string">zh-Hans</span> <span class="comment">#简体字就用zh-Hans就好了</span></span><br><span class="line"><span class="attr">timezone:</span> <span class="string">Asia/Shanghai</span> <span class="comment">#用上海时区就好了</span></span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h2 id="五、一些细节"><a href="#五、一些细节" class="headerlink" title="五、一些细节"></a>五、一些细节</h2><ul>
+<li><h3 id="添加分类、标签、归档页面"><a href="#添加分类、标签、归档页面" class="headerlink" title="添加分类、标签、归档页面"></a>添加分类、标签、归档页面</h3><p>在 Hexo 根目录打开 git bash，输入</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new page <span class="string">&quot;archives&quot;</span> <span class="comment">#创建归档页面</span></span><br><span class="line"></span><br><span class="line">$ hexo new page <span class="string">&quot;categories&quot;</span> <span class="comment">#创建分类页面</span></span><br><span class="line"></span><br><span class="line">$ hexo new page <span class="string">&quot;tags&quot;</span> <span class="comment">#创建标签页面</span></span><br></pre></td></tr></table></figure>
+<p>会在 <code>blog\source</code> 文件夹生成对应的三个文件夹，其中包含对应的 <code>index.md</code> 文件，分别修改其 title、type和layout</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 归档</span><br><span class="line">date: 2022-02-11 16:43:43</span><br><span class="line">type: &quot;archives&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 标签</span><br><span class="line">date: 2022-02-11 16:43:43</span><br><span class="line">type: &quot;tags&quot;</span><br><span class="line">layout: &quot;tags&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 分类</span><br><span class="line">date: 2022-02-11 16:43:43 #注意分类一定要加 layout 否则会显示不出分类项目</span><br><span class="line">type: &quot;categories&quot;</span><br><span class="line">layout: &quot;categories&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<p>同时打开主题配置文件 <code>blog\themes\next</code> 目录下的 <code>_config.yml</code> 找到 menu 放开需要的页面前面的 # 注释</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">menu:</span></span><br><span class="line">  <span class="attr">home:</span> <span class="string">/||</span> <span class="string">home</span></span><br><span class="line">  <span class="comment">#about: /about/ || user</span></span><br><span class="line">  <span class="attr">tags:</span> <span class="string">/tags/||</span> <span class="string">tags</span></span><br><span class="line">  <span class="attr">categories:</span> <span class="string">/categories/||</span> <span class="string">th</span></span><br><span class="line">  <span class="attr">archives:</span> <span class="string">/archives/||</span> <span class="string">archive</span></span><br><span class="line">  <span class="comment">#schedule: /schedule/ || calendar</span></span><br><span class="line">  <span class="comment">#sitemap: /sitemap.xml || sitemap</span></span><br><span class="line">  <span class="comment">#commonweal: /404/ || heartbeat</span></span><br><span class="line"></span><br><span class="line">  <span class="comment">#注意|| xxx表示的是对应的图标不需要改动，同时一定要删掉斜杠和竖线之间的空格 /tags/（这个地方的空格）|| tags</span></span><br></pre></td></tr></table></figure></li>
+<li><h3 id="日志打不开"><a href="#日志打不开" class="headerlink" title="日志打不开"></a>日志打不开</h3><p>打开日志 post 出现 <code>域名/archives/%7C%7C%20archive/</code>，修改 <code>themes/next/layout/_macro/sidebar.swig</code> 文件，搜索 <code>config.archive</code> 关键字找到</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% if config.archive_dir != &#x27;/&#x27; and site.posts.length &gt; 0 %&#125;</span><br><span class="line">              &lt;div class=&quot;site-state-item site-state-posts&quot;&gt;</span><br><span class="line">              &#123;% if theme.menu.archives %&#125;</span><br><span class="line">                &lt;a href=&quot;&#123;&#123; url_for(theme.menu.archives).split(&#x27;||&#x27;)[0] | trim &#125;&#125;&quot;&gt;</span><br><span class="line">              &#123;%else%&#125;</span><br><span class="line">                &lt;a href=&quot;&#123;&#123; url_for(config.archive_dir) &#125;&#125;&quot;&gt;</span><br><span class="line">              &#123;% endif %&#125;</span><br><span class="line">                  &lt;span class=&quot;site-state-item-count&quot;&gt;&#123;&#123; site.posts.length &#125;&#125;&lt;/span&gt;</span><br><span class="line">                  &lt;span class=&quot;site-state-item-name&quot;&gt;&#123;&#123; __(&#x27;state.posts&#x27;) &#125;&#125;&lt;/span&gt;</span><br><span class="line">                &lt;/a&gt;</span><br><span class="line">              &lt;/div&gt;</span><br><span class="line">            &#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
+<p>将其修改为</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% if config.archive_dir != &#x27;/&#x27; and site.posts.length &gt; 0 %&#125;</span><br><span class="line">              &lt;div class=&quot;site-state-item site-state-posts&quot;&gt;</span><br><span class="line">                &lt;a href=&quot;&#123;&#123; url_for(config.archive_dir) &#125;&#125;&quot;&gt;</span><br><span class="line">                  &lt;span class=&quot;site-state-item-count&quot;&gt;&#123;&#123; site.posts.length &#125;&#125;&lt;/span&gt;</span><br><span class="line">                  &lt;span class=&quot;site-state-item-name&quot;&gt;&#123;&#123; __(&#x27;state.posts&#x27;) &#125;&#125;&lt;/span&gt;</span><br><span class="line">                &lt;/a&gt;</span><br><span class="line">              &lt;/div&gt;</span><br><span class="line">            &#123;% endif %&#125;</span><br></pre></td></tr></table></figure></li>
+<li><h3 id="修改文章终极链接"><a href="#修改文章终极链接" class="headerlink" title="修改文章终极链接"></a>修改文章终极链接</h3><p>Hexo 默认的链接是 <code>http://xxx.yy.com/2013/07/14/hello-world</code> 这种类型的，源于根目录下的配置文件 <code>_config.yml</code> 里的：<code>permalink: :year/:month/:day/:title/</code>，这种默认配置的缺点就是一般文件名是中文，导致url链接里有中文出现，这会造成很多问题</p>
+</li>
+</ul>
+<p>所以我们把它设置成终极链接，在 Hexo 根目录打开 git bash，输入</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-abbrlink --save <span class="comment">#注意是abbr不是addr</span></span><br></pre></td></tr></table></figure>
+<p>完成后在 Hexo 配置文件中修改 permalink</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># URL</span></span><br><span class="line"><span class="comment">## Set your site url here. For example, if you use GitHub Page, set url as &#x27;https://username.github.io/project&#x27;</span></span><br><span class="line"><span class="attr">url:</span> <span class="string">http://你的GitHub名字.github.io</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">posts/:abbrlink/</span> <span class="comment">#改这个地方</span></span><br><span class="line"><span class="attr">permalink_defaults:</span></span><br></pre></td></tr></table></figure>
+<p>然后在下面添加一段设置 abbrlink 以生成随机参数</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># abbrlink config</span></span><br><span class="line"><span class="attr">abbrlink:</span></span><br><span class="line">  <span class="attr">alg:</span> <span class="string">crc32</span>  <span class="comment">#对应随机值算法参数，可选为 crc16 和 crc32</span></span><br><span class="line">  <span class="attr">rep:</span> <span class="string">hex</span>    <span class="comment">#对应生成链接的表示方法，hex：十六进制，dec:十进制</span></span><br></pre></td></tr></table></figure>
+<p>两种参数的生成区别</p>
+<p>crc16+hex</p>
+<blockquote>
+<p>/posts/66c8/</p>
+</blockquote>
+<p>crc16+dec</p>
+<blockquote>
+<p>/posts/65535/</p>
+</blockquote>
+<p>crc32+hex</p>
+<blockquote>
+<p>/posts/8ddf18fb/</p>
+</blockquote>
+<p>crc32+dec</p>
+<blockquote>
+<p>/posts/1690090958/</p>
+</blockquote>
+<p>对于 crc16 算法生成的随机值，具有一个最大限度，为 65536</p>
+<hr>
+<h2 id="六、发布文章"><a href="#六、发布文章" class="headerlink" title="六、发布文章"></a>六、发布文章</h2><ul>
+<li><h3 id="新建文章"><a href="#新建文章" class="headerlink" title="新建文章"></a>新建文章</h3><p>在 Hexo 根目录打开 git bash，输入</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo n <span class="string">&quot;文章名&quot;</span></span><br></pre></td></tr></table></figure>
+<p>就会在 <code>blog\source\_posts</code> 文件夹生成命名好的 md 文件，并且包含配置好的抬头，或者将编辑好的 md 文档放入该文件夹（记得添加抬头），后在 Hexo 根目录打开 git bash，输入</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo g</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
+<p>推送框架即可</p>
+</li>
+<li><h3 id="修改新建文章和页面的抬头格式"><a href="#修改新建文章和页面的抬头格式" class="headerlink" title="修改新建文章和页面的抬头格式"></a>修改新建文章和页面的抬头格式</h3><p>在 <code>blog\scaffolds</code> 文件夹里修改 <code>post.md</code> 内容为</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: &#123;&#123; title &#125;&#125;</span><br><span class="line">date: &#123;&#123; date &#125;&#125;</span><br><span class="line">tags: </span><br><span class="line">categories: </span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<p>可以在新建文章时候构建抬头添加标签和分类或者自行增加其他内容，新建页面同理修改 <code>page.md</code> 结构即可</p>
+</li>
+<li><h3 id="GitHub-图床"><a href="#GitHub-图床" class="headerlink" title="GitHub 图床"></a>GitHub 图床</h3><p>在 GitHub 新建一个仓库</p>
+<blockquote>
+<p>仓库要设置为公开</p>
+</blockquote>
+</li>
+</ul>
+<p>新建后可以建立文件夹分类，也可以不建立</p>
+<p><img src="https://github.com/sdte0tw/imageHost/blob/main/BlogImage/newfolder.png"></p>
+<p><img src="https://github.com/sdte0tw/imageHost/blob/main/BlogImage/newTemp.png"></p>
+<blockquote>
+<p>这里新建的文件夹后面要加一个/斜杠，然后随便新建一个临时文件写两个字（文件夹不能为空）后点 Commit new file，这样就新建了一个仓库内的文件夹</p>
+</blockquote>
+<p>之后点上传文件</p>
+<p><img src="https://github.com/sdte0tw/imageHost/blob/main/BlogImage/upload.png"></p>
+<p>可以上传多个文件</p>
+<p><img src="https://github.com/sdte0tw/imageHost/blob/main/BlogImage/upload2.png"></p>
+<p>上传成功后点开图像文件，其网址就是对应的图片 URL</p>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>GitHub</tag>
       </tags>
   </entry>
 </search>
