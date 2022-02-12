@@ -137,6 +137,18 @@
 <p>可以上传多个文件</p>
 <p><img src="/img/upload2.png"></p>
 <p>上传成功后点开图像文件，其网址就是对应的图片 URL</p>
+<ul>
+<li><h3 id="直接打包图片上传"><a href="#直接打包图片上传" class="headerlink" title="直接打包图片上传"></a>直接打包图片上传</h3>在国内用 GitHub 做图床可能会造成图片无法显示的问题，建议用 Hexo 插件直接部署图片到网站上面，在 Hexo 根目录打开 git bash，输入<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-filter-image --save</span><br></pre></td></tr></table></figure>
+安装后修改根目录下的配置文件 <code>_config.yml</code> 里的<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">post_asset_folder:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+将其改为 true，然后在 <code>blog\source</code> 文件夹下新建 <code>img</code> 文件夹，把图片放进去，放图片的文件夹跟放文章的文件夹是平级的</li>
+</ul>
+<p><img src="/img/img-filter.png"></p>
+<p>在引用图片时的路径写为（markdown为例）</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![](/img/xxx.png)</span><br></pre></td></tr></table></figure>
+<p>完成后重新部署</p>
+<blockquote>
+<p>本地的 markdown 编辑器上是不显示图片的，但是网站上显示是没问题的</p>
+</blockquote>
 ]]></content>
       <categories>
         <category>Hexo</category>
